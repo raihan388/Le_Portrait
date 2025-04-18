@@ -4,38 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DSLR Cameras</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="style/tailwindcss3.4.1.js"></script>
 </head>
 <body class="bg-white text-gray-800">
   <!-- Header -->
   <header class="border-b shadow-sm">
-    <div class="container mx-auto flex justify-between items-center p-4">
-      <div class="flex items-center gap-4">
-        <div class="text-xl font-bold">Le <span class="italic">Portrait</span></div>
-        <input type="text" placeholder="Search cameras, lenses, accessories..." class="border px-3 py-2 rounded-md w-96">
-      </div>
-      <nav class="flex items-center gap-6">
-        <a href="#" class="hover:underline">Login</a>
-        <a href="#" class="hover:underline">Sign Up</a>
-        <a href="#" class="hover:underline">Cart (0)</a>
-      </nav>
+  <header class="border-b shadow-sm">
+  <div class="container mx-auto flex justify-between items-center p-4">
+    <!-- Kiri: Logo -->
+    <div class="flex-shrink-0">
+      <img src="image/image3.jpeg" alt="Le Portrait Logo" class="h-8 w-auto">
     </div>
-    <nav class="bg-gray-100 border-t">
-      <div class="container mx-auto flex gap-6 p-3 text-sm font-medium">
-        <a href="#" class="hover:text-blue-600">DSLR Camera</a>
-        <a href="#" class="hover:text-blue-600">Mirrorless Camera</a>
-        <a href="#" class="hover:text-blue-600">Film Cameras</a>
-        <a href="#" class="hover:text-blue-600">Lenses</a>
-        <a href="#" class="hover:text-blue-600">Flash units</a>
-        <a href="#" class="hover:text-blue-600">Tripods</a>
-      </div>
+
+    <!-- Tengah: Search Bar -->
+    <div class="flex-1 flex justify-center">
+      <input type="text" placeholder="Search cameras, lenses, accessories..." class="border px-3 py-2 rounded-md w-full max-w-md">
+    </div>
+
+    <!-- Kanan: Navigation -->
+    <nav class="flex items-center gap-6">
+      <a href="#" class="hover:underline">Login</a>
+      <a href="#" class="hover:underline">Sign Up</a>
+      <a href="#" class="hover:underline">Cart (0)</a>
     </nav>
+  </div>
+  <nav class="bg-gray-100 border-t">
+  <div class="container mx-auto">
+  <div class="flex flex-wrap justify-center gap-x-32 gap-y-2 p-5 text-base font-medium text-center">
+      <a href="#" class="hover:text-blue-600">DSLR Cameras</a>
+      <a href="#" class="hover:text-blue-600">Mirrorless Camera</a>
+      <a href="#" class="hover:text-blue-600">Film Cameras</a>
+      <a href="#" class="hover:text-blue-600">Lenses</a>
+      <a href="#" class="hover:text-blue-600">Flash units</a>
+      <a href="#" class="hover:text-blue-600">Tripods</a>
+    </div>
+  </div>
+</nav>
   </header>
 
   <!-- Main Content -->
   <main class="container mx-auto flex mt-8">
     <!-- Sidebar -->
-    <aside class="w-1/5 pr-6">
+    <aside class="w-1/5 pr-6 border-r border-gray-200">
       <h2 class="font-bold text-lg mb-4">Brands</h2>
       <ul class="space-y-2 text-gray-700">
         <li><a href="#" class="hover:underline">Canon</a></li>
@@ -47,6 +57,7 @@
     </aside>
 
     <!-- Products -->
+    <div class="flex-1 p-4 pl-6">
     <section class="w-4/5">
       <h1 class="text-3xl font-bold mb-2">DSLR Cameras</h1>
       <p class="text-sm text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
