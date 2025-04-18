@@ -22,7 +22,7 @@
     </div>
     <nav class="bg-gray-100 border-t">
       <div class="container mx-auto flex gap-6 p-3 text-sm font-medium">
-        <a href="#" class="hover:text-blue-600">DSLR Cameras</a>
+        <a href="#" class="hover:text-blue-600">DSLR Camera</a>
         <a href="#" class="hover:text-blue-600">Mirrorless Camera</a>
         <a href="#" class="hover:text-blue-600">Film Cameras</a>
         <a href="#" class="hover:text-blue-600">Lenses</a>
